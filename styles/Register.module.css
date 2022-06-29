@@ -1,0 +1,50 @@
+.pageContainer {
+  min-width: 100%;
+  height: 800px;
+  background-color: cadetblue;
+  position: relative;
+}
+
+.formContainer {
+  background-color: white;
+  border-radius: 0.25rem;
+  width: 50%;
+  position: absolute;
+  top: 3rem;
+  left: 3rem;
+  padding: 1rem;
+  z-index: 1;
+}
+
+.form_input_container {
+  margin-bottom: 0.25rem;
+}
+
+.form__label {
+  display: flex;
+  flex-grow: 1;
+  margin-bottom: 0.1rem;
+}
+
+.form__input {
+  display: flex;
+  flex-grow: 1;
+}
+
+.form__control {
+  width: 100%;
+  border: 1px gray solid;
+}
+
+.form__button {
+  width: 100%;
+  background-color: cornflowerblue;
+  color: white;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.25rem;
+}
+
+.bgImage {
+  z-index: 0;
+}
